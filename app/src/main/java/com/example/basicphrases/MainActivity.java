@@ -8,8 +8,10 @@ import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
 
+    // creating a new media player object
     MediaPlayer mediaPlayer;
 
+    // each function initialises the media player with new audio file
     public void hello(View view)
     {
         mediaPlayer = MediaPlayer.create(this, R.raw.hello);
